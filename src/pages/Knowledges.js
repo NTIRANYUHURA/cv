@@ -1,11 +1,12 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-const Accueil = () => {
+const Knowledges = () => {
     return (
         <div>
-            <Navigation/> 
+            <Navigation/>
+            mes comprtrnces
         </div>
     );
 };
 
-export default Accueil;
+export default Knowledges;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 
-const Notfound = () => {
+const NotFound = () => {
     return (
         <div>
             <Navigation/>
@@ -10,4 +10,4 @@ const Notfound = () => {
     );
 };
 
-export default Notfound;
+export default NotFound;

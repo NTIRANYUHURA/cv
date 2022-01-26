@@ -10,28 +10,28 @@ const Navigation = () => {
                 </div>
             </div>
 
-            < div className = "navigation">
+            <div className = "navigation">
                 <ul>
                     <li>
-                    <NavLink exact to = "/" activeClassName= "navActive">
+                    <NavLink exact to = "/" activeclassname= "navActive">
                         <i className = "fas fa-home"></i>
                         <span>Accueil</span>
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to = "/competences" activeClassName= "navActive">
+                    <NavLink exact to = "/knowledges" activeclassname= "navActive">
                         <i className = "fas fa-mountain"></i>
                         <span>Competences</span>
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to = "/portfolio" activeClassName= "navActive">
+                    <NavLink exact to = "/portfolio" activeclassname= "navActive">
                         <i className = "fas fa-images"></i>
                         <span>Portfolio</span>
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to = "/contact" activeClassName= "navActive">
+                    <NavLink exact to = "/contact" activeclassname= "navActive">
                         <i className = "fas fa-address-book"></i>
                         <span>Contact</span>
                     </NavLink>
